@@ -11,8 +11,10 @@ const Webtoon = (props) => {
                     width={180}
                 ></Image >
             </a>
-            <p> 제목 : {props.title} </p>
-            <p> 작가 : {props.author} </p>
+            <div style={{textAlign : "center"}}>
+                <p> 제목 : {props.title} </p>
+                <p> 작가 : {props.author} </p>
+            </div>
         </div>
     )
 }
